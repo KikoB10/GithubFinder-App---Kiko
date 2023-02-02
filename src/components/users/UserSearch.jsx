@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useContext } from 'react';
 import GithubContext from '../../context/Github/GithubContext';
 import AlertContext from '../../context/Alert/AlertContext';
-import { searchUsers } from '../../context/github/GithubAction';
+import { searchUsers } from '../../context/Github/GithubActions';
 
 function UserSearch() {
   const [text, setText] = useState('');
